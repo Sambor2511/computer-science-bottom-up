@@ -78,6 +78,12 @@ half adders together, and you will start to build something that can
 add together long binary numbers. Add some external memory, and
 you have a computer.
 
+Electronically, the boolean operations are implemented in gates made
+by transistors.
+
+### Hexadecimal
+
+Hexadecimal refers to a base 16 number system. Hexadecimal uses the standard base 10 numerals, but adds A B C D E F which refer to 10 11 12 13 14 15.
 
 
 
