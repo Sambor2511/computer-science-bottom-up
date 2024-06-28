@@ -3,6 +3,7 @@
 [csbu.pdf](https://github.com/user-attachments/files/16031328/csbu.pdf)
 
 note:
+
 everything is a file. file can be write to or read.
 Abstraction is interface without the complexity stuff.
 
