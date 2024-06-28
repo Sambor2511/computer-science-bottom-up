@@ -1,5 +1,7 @@
-![image](https://github.com/Sambor2511/computer-science-self-taught/assets/76769524/9599745a-d590-4ecc-8fe5-ede6c27bb165)# computer-science-self-taught
+# computer-science-self-taught
+
 [csbu.pdf](https://github.com/user-attachments/files/16031328/csbu.pdf)
+
 note:
 everything is a file. file can be write to or read.
 Abstraction is interface without the complexity stuff.
