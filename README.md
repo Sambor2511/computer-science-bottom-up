@@ -85,5 +85,7 @@ by transistors.
 
 Hexadecimal refers to a base 16 number system. Hexadecimal uses the standard base 10 numerals, but adds A B C D E F which refer to 10 11 12 13 14 15.
 
+Traditionally, any time you see a number prefixed by 0x this will
+denote a hexadecimal number.
 
 
