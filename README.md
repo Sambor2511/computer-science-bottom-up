@@ -90,4 +90,31 @@ denote a hexadecimal number.
 
 ![image](https://github.com/Sambor2511/computer-science-self-taught/assets/76769524/eaf62799-2844-4455-9e20-2af70abc065c)
 
+### Masking and Flags
 
+Remember each bit represents two states, so if we know a variable
+only has, say, 16 possible states it can be represented by 4 bits (i.e.
+24=16 unique values). But the smallest type we can declare in C is 8
+bits (a char ), so we can either waste four bits, or find some way to
+use those left over bits
+
+![image](https://github.com/Sambor2511/computer-science-self-taught/assets/76769524/6dd54c06-860a-4b53-b860-dde3175941ed)
+
+### C Standards
+
+Officially this standard is known as ISO/IEC 9899:1999(E), but is
+more commonly referred to by its shortened name C99.
+
+### GNU C
+
+The GNU C Compiler, more commonly referred to as gcc, almost
+completely implements the C99 standard.
+
+### Types
+
+In a typed language, such as C, every
+variable must be declared with a type.
+
+![image](https://github.com/Sambor2511/computer-science-self-taught/assets/76769524/3bcd8424-aac0-47f5-b0bf-034af3be1cbd)
+
+Each architecture and operating system conforms to an Application Binary Interface or ABI. The ABI for a system fills in the details between the C standard and the requirements of the underlying hardware and operating system. An ABI is written for a specific processor and operating system combination.
