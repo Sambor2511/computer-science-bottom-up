@@ -88,4 +88,6 @@ Hexadecimal refers to a base 16 number system. Hexadecimal uses the standard bas
 Traditionally, any time you see a number prefixed by 0x this will
 denote a hexadecimal number.
 
+![image](https://github.com/Sambor2511/computer-science-self-taught/assets/76769524/eaf62799-2844-4455-9e20-2af70abc065c)
+
 
