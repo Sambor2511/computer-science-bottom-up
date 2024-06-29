@@ -118,3 +118,29 @@ variable must be declared with a type.
 ![image](https://github.com/Sambor2511/computer-science-self-taught/assets/76769524/3bcd8424-aac0-47f5-b0bf-034af3be1cbd)
 
 Each architecture and operating system conforms to an Application Binary Interface or ABI. The ABI for a system fills in the details between the C standard and the requirements of the underlying hardware and operating system. An ABI is written for a specific processor and operating system combination.
+
+### Type qualifiers
+
+const means that a variable will never be modified from its original value and volatile suggests to the compiler that this value might change outside program execution flow so the compiler must be careful not to re-order access to it in any way.
+signed and unsigned are probably the two most important qualifiers; and they say if a variable can take on a negative value or not.
+Qualifiers are all intended to pass extra information about how the variable will be used to the compiler.
+
+### Number Representation
+
+Binary can be negative or positive.
+
+### Sign Bit
+
+MSB on the leftmost of the bits.
+
+### One's Complement
+
+One's complement simply applies the not operation to the positive number to represent the negative number. One complement have 2 representation of 0 which is 0000 and 1111.
+
+### Two's Complement
+
+Two's complement have only 1 representation of 0 which is 0000. Two's complement work by inverting all the bits at then adding one to the LSB.
+
+### Standard Types
+
+uint8_t is an unsigned integer exactly 8 bits wide. Many other types are defined.
