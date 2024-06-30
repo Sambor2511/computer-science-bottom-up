@@ -129,6 +129,10 @@ Qualifiers are all intended to pass extra information about how the variable wil
 
 Binary can be negative or positive.
 
+### Standard Types
+
+uint8_t is an unsigned integer exactly 8 bits wide. Many other types are defined.
+
 ### Sign Bit
 
 MSB on the leftmost of the bits.
@@ -141,6 +145,14 @@ One's complement simply applies the not operation to the positive number to repr
 
 Two's complement have only 1 representation of 0 which is 0000. Two's complement work by inverting all the bits at then adding one to the LSB.
 
-### Standard Types
+### Sign Extension
 
-uint8_t is an unsigned integer exactly 8 bits wide. Many other types are defined.
+Sign-extension is a technique used in computer arithmetic to correctly extend the sign of a binary number when increasing the number of bits used to represent that number. This is particularly important when dealing with signed integers in two's complement representation. 4-bit 1010 (-6 in decimal) extended to 8-bit: 1111 1010.
+
+### Floating Point
+
+In scientific notation the value 123.45 might commonly be represented as 1.2345x102. We call 1.2345 the mantissa or significand, 10 is the radix and 2 is the exponent.
+
+In the IEEE floating point model, we break up the available bits to represent the sign, mantissa and exponent of a decimal number. A decimal number is represented by sign × significand × 2^exponent.
+
+- For single precision (32-bit), the exponent field is 8 bits, so the bias is $\2^{7} - 1 = 127\$.
