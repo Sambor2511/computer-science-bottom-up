@@ -155,4 +155,4 @@ In scientific notation the value 123.45 might commonly be represented as 1.2345x
 
 In the IEEE floating point model, we break up the available bits to represent the sign, mantissa and exponent of a decimal number. A decimal number is represented by sign × significand × 2^exponent.
 
-- For single precision (32-bit), the exponent field is 8 bits, so the bias is $\2^{7} - 1 = 127\$.
+- For single precision (32-bit), the exponent field is 8 bits, so the bias is $2^{7} - 1 = 127$.
