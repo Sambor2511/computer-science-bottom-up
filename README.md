@@ -1,4 +1,4 @@
-# computer-science-self-taught
+# computer-science-bottom-up
 
 [csbu.pdf](https://github.com/user-attachments/files/16031328/csbu.pdf)
 
